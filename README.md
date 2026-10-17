@@ -14,6 +14,10 @@
 
 `infra` inspects local compute hardware (NVIDIA, AMD ROCm, Apple Silicon, CPU/RAM), calculates exact model memory and KV-cache footprints across precisions (`FP16`, `BF16`, `INT8`, `INT4`), recommends fitting models from the Hugging Face Hub for your workload, and manages local vLLM serving daemons.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="infra interactive TUI dashboard" width="100%" />
+</p>
+
 ## Installation
 
 ```bash

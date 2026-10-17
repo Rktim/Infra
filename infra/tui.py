@@ -913,14 +913,29 @@ class InfraApp(App):
             "Models [1]",
         ),
         (
+            "f1",
+            "show_models_tab",
+            "Models [F1]",
+        ),
+        (
             "2",
             "show_server_tab",
             "Server [2]",
         ),
         (
+            "f2",
+            "show_server_tab",
+            "Server [F2]",
+        ),
+        (
             "3",
             "show_api_tab",
             "API [3]",
+        ),
+        (
+            "f3",
+            "show_api_tab",
+            "API [F3]",
         ),
         (
             "q",
